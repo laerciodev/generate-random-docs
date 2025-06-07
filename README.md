@@ -66,23 +66,17 @@ Com o plugin instalado e recarregado, você pode usá-lo em qualquer campo de te
 
 **Corpo JSON de uma Requisição POST:**
 
-```json
-{
-  "nome": "João da Silva",
-  "documento": "{{ gerarCpf('formatted') }}",
-  "empresa_doc": "{{ gerarCnpj('raw') }}"
-}
-```
+![image](https://github.com/user-attachments/assets/db6bd6b2-e75d-494d-88ec-15c7cb2d8e51)
 
-**Resultado (após o envio da requisição):**
+**Edição do template tag:**
 
-```json
-{
-  "nome": "João da Silva",
-  "documento": "123.456.789-00", // Exemplo de CPF gerado
-  "empresa_doc": "98765432000199" // Exemplo de CNPJ gerado (apenas números)
-}
-```
+Permite selecionar as opções formatada, ou seja, com pontos e barras.
+Ex: `98.765.432/0001-99
+
+Ou somente com números
+
+![image](https://github.com/user-attachments/assets/44cee2d4-9aeb-4731-a05d-47b16e95aacb)
+
 
 -----
 
