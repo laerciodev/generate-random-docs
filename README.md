@@ -91,10 +91,3 @@ Contribuições são bem-vindas\! Sinta-se à vontade para abrir issues para bug
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
 
 -----
-
-**Observações:**
-
-  * Lembre-se de substituir `seu-usuario` e `seu-repositorio` nos links dos badges (`GitHub license` e `Insomnia Plugin`) pelos dados reais do seu repositório no GitHub.
-  * Certifique-se de que o arquivo `LICENSE` exista na raiz do seu repositório com o conteúdo da licença MIT.
-
-Essa estrutura de Markdown facilitará a leitura e navegação no seu repositório do GitHub.
