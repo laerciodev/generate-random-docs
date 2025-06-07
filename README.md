@@ -1,55 +1,106 @@
 # Insomnia Plugin: Gerador de Documentos BR (CPF e CNPJ)
 
-Um plugin simples e eficaz para o Insomnia que permite gerar CPFs (Cadastro de Pessoas Físicas) 
-e CNPJs (Cadastro Nacional da Pessoa Jurídica)
-brasileiros válidos e aleatórios diretamente nas suas requisições.
-Ideal para testes de API, preenchimento de formulários e simulação de dados em ambientes de desenvolvimento.
+[](https://www.google.com/search?q=https://github.com/seu-usuario/seu-repositorio/blob/main/LICENSE)
+[](https://www.google.com/search?q=https://insomnia.rest/plugins/insomnia-plugin-gerador-docs)
 
-✨ Funcionalidades
+Um plugin simples e eficaz para o [Insomnia](https://insomnia.rest/) que permite gerar **CPFs (Cadastro de Pessoas Físicas)** e **CNPJs (Cadastro Nacional da Pessoa Jurídica)** brasileiros válidos e aleatórios diretamente nas suas requisições. Ideal para testes de API, preenchimento de formulários e simulação de dados em ambientes de desenvolvimento.
 
-Geração de CPF Válido: Crie números de CPF aleatórios que passam pela validação de dígitos verificadores.
-Geração de CNPJ Válido: Crie números de CNPJ aleatórios que seguem as regras de cálculo de dígitos verificadores.
-Opções de Formatação: Escolha entre o formato numérico puro ou o formato padrão brasileiro (com pontos, barra e hífen) para CPF e CNPJ.
-Fácil de Usar: Integração direta como uma Template Tag nas suas requisições do Insomnia.
+-----
 
-🚀 Por que usar?
+## ✨ Funcionalidades
 
-Ao desenvolver e testar APIs que lidam com documentos brasileiros, a necessidade de CPFs e CNPJs válidos (mas fictícios) é constante.
-Este plugin agiliza seu fluxo de trabalho, eliminando a necessidade de gerar esses números manualmente ou usar geradores externos,
-mantendo tudo dentro do seu ambiente de teste Insomnia.
+  * **Geração de CPF Válido:** Crie números de CPF aleatórios que passam pela validação de dígitos verificadores.
+  * **Geração de CNPJ Válido:** Crie números de CNPJ aleatórios que seguem as regras de cálculo de dígitos verificadores.
+  * **Opções de Formatação:** Escolha entre o formato numérico puro ou o formato padrão brasileiro (com pontos, barra e hífen) para CPF e CNPJ.
+  * **Fácil de Usar:** Integração direta como uma Template Tag nas suas requisições do Insomnia.
 
-📦 Instalação
+-----
 
-Gere o Plugin (Recomendado):
+## 🚀 Por que usar?
 
-Abra o Insomnia.
-Vá em Application > Preferences (ou clique no ícone de engrenagem ⚙️).
-Selecione a aba Plugins.
-Clique em Generate New Plugin e digite insomnia-plugin-gerador-docs.
-Isso criará a estrutura de pasta necessária.
+Ao desenvolver e testar APIs que lidam com documentos brasileiros, a necessidade de CPFs e CNPJs válidos (mas fictícios) é constante. Este plugin agiliza seu fluxo de trabalho, eliminando a necessidade de gerar esses números manualmente ou usar geradores externos, mantendo tudo dentro do seu ambiente de teste Insomnia.
 
-Copie os Arquivos:
+-----
 
-Após gerar a pasta, navegue até ela no seu sistema operacional (o caminho será exibido na interface do Insomnia).
-Substitua o conteúdo do package.json e do index.js pelos arquivos fornecidos neste repositório.
-Localização das pastas:
+## 📦 Instalação
 
-macOS: ~/Library/Application Support/Insomnia/plugins/insomnia-plugin-gerador-docs/
-Windows: %APPDATA%\Insomnia\plugins\insomnia-plugin-gerador-docs\
-Linux: $XDG_CONFIG_HOME/Insomnia/plugins/insomnia-plugin-gerador-docs/ ou ~/.config/Insomnia/plugins/insomnia-plugin-gerador-docs/
-Recarregue os Plugins:
+1.  **Gere o Plugin (Recomendado):**
 
-Volte ao Insomnia.
-Na aba Plugins das Preferências, clique em "Reload Plugins" ou reinicie o Insomnia.
+      * Abra o **Insomnia**.
+      * Vá em **Application \> Preferences** (ou clique no ícone de engrenagem ⚙️).
+      * Selecione a aba **Plugins**.
+      * Clique em **Generate New Plugin** e digite `insomnia-plugin-gerador-docs`.
+      * Isso criará a estrutura de pasta necessária.
 
-💡 Como Usar
+2.  **Copie os Arquivos:**
+
+      * Após gerar a pasta, navegue até ela no seu sistema operacional (o caminho será exibido na interface do Insomnia).
+      * Substitua o conteúdo do `package.json` e do `index.js` pelos arquivos fornecidos neste repositório.
+
+    **Localização das pastas:**
+
+      * **macOS:** `~/Library/Application Support/Insomnia/plugins/insomnia-plugin-gerador-docs/`
+      * **Windows:** `%APPDATA%\Insomnia\plugins\insomnia-plugin-gerador-docs\`
+      * **Linux:** `$XDG_CONFIG_HOME/Insomnia/plugins/insomnia-plugin-gerador-docs/` ou `~/.config/Insomnia/plugins/insomnia-plugin-gerador-docs/`
+
+3.  **Recarregue os Plugins:**
+
+      * Volte ao Insomnia.
+      * Na aba **Plugins** das Preferências, clique em **"Reload Plugins"** ou reinicie o Insomnia.
+
+-----
+
+## 💡 Como Usar
+
 Com o plugin instalado e recarregado, você pode usá-lo em qualquer campo de texto dinâmico (URL, corpo JSON, cabeçalhos, etc.) dentro das suas requisições:
 
-Abra (ou crie) uma requisição no Insomnia.
-Clique no campo onde deseja inserir o CPF ou CNPJ.
-Pressione Ctrl + Espaço (Windows/Linux) ou Cmd + Espaço (macOS) para abrir o menu de Template Tags.
-Pesquise por "Gerar CPF" ou "Gerar CNPJ".
-Selecione a tag desejada.
-Uma caixa de diálogo aparecerá, permitindo que você escolha o formato (com ou sem formatação).
-Clique em "Done". O valor será automaticamente gerado e inserido ao enviar a requisição.
+1.  Abra (ou crie) uma requisição no Insomnia.
+2.  Clique no campo onde deseja inserir o CPF ou CNPJ.
+3.  Pressione `Ctrl + Espaço` (Windows/Linux) ou `Cmd + Espaço` (macOS) para abrir o menu de Template Tags.
+4.  Pesquise por **"Gerar CPF"** ou **"Gerar CNPJ"**.
+5.  Selecione a tag desejada.
+6.  Uma caixa de diálogo aparecerá, permitindo que você escolha o formato (com ou sem formatação).
+7.  Clique em "Done". O valor será automaticamente gerado e inserido ao enviar a requisição.
 
+### Exemplos de Uso
+
+**Corpo JSON de uma Requisição POST:**
+
+```json
+{
+  "nome": "João da Silva",
+  "documento": "{{ gerarCpf('formatted') }}",
+  "empresa_doc": "{{ gerarCnpj('raw') }}"
+}
+```
+
+**Resultado (após o envio da requisição):**
+
+```json
+{
+  "nome": "João da Silva",
+  "documento": "123.456.789-00", // Exemplo de CPF gerado
+  "empresa_doc": "98765432000199" // Exemplo de CNPJ gerado (apenas números)
+}
+```
+
+-----
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas\! Sinta-se à vontade para abrir issues para bugs ou sugestões de melhoria, e enviar Pull Requests.
+
+-----
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
+
+-----
+
+**Observações:**
+
+  * Lembre-se de substituir `seu-usuario` e `seu-repositorio` nos links dos badges (`GitHub license` e `Insomnia Plugin`) pelos dados reais do seu repositório no GitHub.
+  * Certifique-se de que o arquivo `LICENSE` exista na raiz do seu repositório com o conteúdo da licença MIT.
+
+Essa estrutura de Markdown facilitará a leitura e navegação no seu repositório do GitHub.
