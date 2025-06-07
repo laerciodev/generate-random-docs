@@ -3,7 +3,9 @@
 [](https://www.google.com/search?q=https://github.com/seu-usuario/seu-repositorio/blob/main/LICENSE)
 [](https://www.google.com/search?q=https://insomnia.rest/plugins/insomnia-plugin-gerador-docs)
 
-Um plugin simples e eficaz para o [Insomnia](https://insomnia.rest/) que permite gerar **CPFs (Cadastro de Pessoas Físicas)** e **CNPJs (Cadastro Nacional da Pessoa Jurídica)** brasileiros válidos e aleatórios diretamente nas suas requisições. Ideal para testes de API, preenchimento de formulários e simulação de dados em ambientes de desenvolvimento.
+Um plugin simples e eficaz para o [Insomnia](https://insomnia.rest/) que permite gerar **CPFs (Cadastro de Pessoas Físicas)** e 
+**CNPJs (Cadastro Nacional da Pessoa Jurídica)** brasileiros válidos e aleatórios diretamente nas suas requisições.
+Ideal para testes de API, preenchimento de formulários e simulação de dados em ambientes de desenvolvimento.
 
 -----
 
