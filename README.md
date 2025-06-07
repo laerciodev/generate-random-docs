@@ -73,7 +73,7 @@ Com o plugin instalado e recarregado, você pode usá-lo em qualquer campo de te
 **Edição do template tag:**
 
 Permite selecionar as opções formatada, ou seja, com pontos e barras.
-Ex: `98.765.432/0001-99
+Ex: `98.765.432/0001-99`
 
 Ou somente com números
 
