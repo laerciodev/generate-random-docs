@@ -1,0 +1,56 @@
+{
+  "name": "insomnia-plugin-gerador-docs",
+  "version": "1.1.0",
+  "description": "Um plugin Insomnia para gerar CPFs e CNPJs aleatórios válidos.",
+  "main": "index.js",
+  "insomnia": {
+    "name": "geradorDocs",
+    "displayName": "Gerador de Docs",
+    "description": "Gera CPFs ou CNPJs aleatórios e válidos.",
+    "templateTags": [
+      {
+        "name": "gerarCpf",
+        "displayName": "Gerar CPF",
+        "description": "Gera um CPF aleatório e válido.",
+        "args": [
+          {
+            "displayName": "Formato",
+            "type": "enum",
+            "options": [
+              { "displayName": "Com Pontos e Hífen", "value": "formatted" },
+              { "displayName": "Apenas Números", "value": "raw" }
+            ],
+            "defaultValue": "formatted"
+          }
+        ]
+      },
+      {
+        "name": "gerarCnpj",
+        "displayName": "Gerar CNPJ",
+        "description": "Gera um CNPJ aleatório e válido.",
+        "args": [
+          {
+            "displayName": "Formato",
+            "type": "enum",
+            "options": [
+              { "displayName": "Com Pontos, Barra e Hífen", "value": "formatted" },
+              { "displayName": "Apenas Números", "value": "raw" }
+            ],
+            "defaultValue": "formatted"
+          }
+        ]
+      }
+    ]
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "cpf",
+    "cnpj",
+    "gerador",
+    "brasil",
+    "documentos"
+  ],
+  "author": "Laércio Oliveira",
+  "license": "MIT"
+}
