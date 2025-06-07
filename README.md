@@ -1,6 +1,8 @@
 # Insomnia Plugin: Gerador de Documentos BR (CPF e CNPJ)
 
-Um plugin simples e eficaz para o Insomnia que permite gerar CPFs (Cadastro de Pessoas Físicas) e CNPJs (Cadastro Nacional da Pessoa Jurídica) brasileiros válidos e aleatórios diretamente nas suas requisições. Ideal para testes de API, preenchimento de formulários e simulação de dados em ambientes de desenvolvimento.
+Um plugin simples e eficaz para o Insomnia que permite gerar CPFs (Cadastro de Pessoas Físicas) e CNPJs (Cadastro Nacional da Pessoa Jurídica)
+brasileiros válidos e aleatórios diretamente nas suas requisições.
+Ideal para testes de API, preenchimento de formulários e simulação de dados em ambientes de desenvolvimento.
 
 ✨ Funcionalidades
 Geração de CPF Válido: Crie números de CPF aleatórios que passam pela validação de dígitos verificadores.
@@ -9,7 +11,9 @@ Opções de Formatação: Escolha entre o formato numérico puro ou o formato pa
 Fácil de Usar: Integração direta como uma Template Tag nas suas requisições do Insomnia.
 
 🚀 Por que usar?
-Ao desenvolver e testar APIs que lidam com documentos brasileiros, a necessidade de CPFs e CNPJs válidos (mas fictícios) é constante. Este plugin agiliza seu fluxo de trabalho, eliminando a necessidade de gerar esses números manualmente ou usar geradores externos, mantendo tudo dentro do seu ambiente de teste Insomnia.
+Ao desenvolver e testar APIs que lidam com documentos brasileiros, a necessidade de CPFs e CNPJs válidos (mas fictícios) é constante.
+Este plugin agiliza seu fluxo de trabalho, eliminando a necessidade de gerar esses números manualmente ou usar geradores externos,
+mantendo tudo dentro do seu ambiente de teste Insomnia.
 
 📦 Instalação
 Gere o Plugin (Recomendado):
@@ -19,6 +23,7 @@ Vá em Application > Preferences (ou clique no ícone de engrenagem ⚙️).
 Selecione a aba Plugins.
 Clique em Generate New Plugin e digite insomnia-plugin-gerador-docs.
 Isso criará a estrutura de pasta necessária.
+
 Copie os Arquivos:
 
 Após gerar a pasta, navegue até ela no seu sistema operacional (o caminho será exibido na interface do Insomnia).
